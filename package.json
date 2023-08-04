@@ -2,10 +2,10 @@
   "name": "mellowyellow",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://sind83.github.io/MellowYellow",
+  "homepage": "https://MalgorzataMarczynska.github.io/Filmoteka-GoIT-JS-group-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /MellowYellow/"
+    "build": "parcel build src/*.html --public-url /Filmoteka-GoIT-JS-group-project/"
   },
   "repository": {
     "type": "git",
