@@ -11,7 +11,13 @@
     padding: 100px;
   }
 }
-
+.warning {
+  padding-top: 2em;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  color: gray;
+}
 @media screen and (min-width: 768px) {
   .film-cards {
     padding-top: 60px;
@@ -36,4 +42,30 @@
       justify-content: center;
     }
   }
+}
+.scroll-up-button {
+  position: fixed;
+  right: 10em;
+  bottom: 3em;
+
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  opacity: 0.6;
+
+  background-image: url(../images/up-arrow.png);
+  background-size: contain;
+
+  cursor: pointer;
+}
+.scroll-up-button:hover,
+.scroll-up-button:focus {
+  border-radius: 50%;
+  background-color: getColor(second-main);
+  opacity: 0.85;
 }
