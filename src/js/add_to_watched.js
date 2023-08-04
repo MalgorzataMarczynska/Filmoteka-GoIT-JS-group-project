@@ -56,6 +56,7 @@ modal.addEventListener('click', ev => {
       };
       watchedList.push(movieInfo);
       localStorage.setItem(storageKeyWatched, JSON.stringify(watchedList));
+      location.reload();
     }
   }
 });
